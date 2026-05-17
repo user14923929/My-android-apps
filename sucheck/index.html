@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root checker LITE / SUCheck</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap);
+
+        body {
+            font-family: JetBrains Mono;
+        }
+
+        header {
+            display: block;
+            background: url("root.jpeg");
+        }
+
+        header h1 {
+            text-align: -webkit-center;
+        }
+
+        .paragraf {
+            background-color: #e3e3e3;
+            font-family: serif;
+            font-style: italic;
+        }
+
+        center div button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 10%;
+        }
+
+        footer {
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            background: url("root.jpeg");
+            text-align: -webkit-center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Root checker LITE / SUCheck</h1>
+    </header>
+    <h2>What is Root checker LITE / SUCheck?</h2>
+    <p>
+        <strong>Root checker LITE / SUCheck</strong> is an open source root checker created in Sketchware Pro.
+    </p>
+    <h2>What does it mean to root Android?</h2>
+    <p class="paragraf">
+        <br><br>
+        Rooting Android means gaining superuser (administrator) access to the operating system.
+        <br><br>
+        Normally, Android restricts access to system files and settings for safety. Root removes these restrictions and
+        gives full control over the device.
+        <br><br>
+        What root allows:
+        <br><br>
+        Delete system apps
+        Modify system files
+        Install advanced customization tools
+        Control CPU, battery, and performance settings
+        Use special applications that require root access
+        <br><br>
+        Advantages:
+        <br><br>
+        Full control over the device
+        Deep customization options
+        Ability to remove unwanted preinstalled apps
+        Access to advanced system tools
+        <br><br>
+        Disadvantages:
+        <br><br>
+        Reduced security
+        Some apps (banking, games) may stop working
+        System updates may fail or break root
+        Risk of damaging the system if used incorrectly
+        <br><br>
+        Root is mainly used by developers and advanced users for customization, testing, and system modification.
+        <br><br>
+    </p>
+    <h2>Download</h2>
+    <center>
+        <div>
+            <button id="sourcedownload">Download source</button>
+            <button id="apkdownload">Download apk</button>
+        </div>
+    </center>
+    <footer>© 2026 user14923929. All rights reserved.</footer>
+    <script>
+        document.getElementById('sourcedownload').addEventListener('click', function() {
+            location.href = "SUCheck-source.zip"
+        });
+
+        document.getElementById('apkdownload').addEventListener('click', function() {
+            location.href = "SUCheck.apk"
+        });
+    </script>
+</body>
+</html>
